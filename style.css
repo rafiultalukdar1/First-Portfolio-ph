@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background: var(--whiteColor);
+  padding: 0;
+  margin: 0;
+}
+
+header,
+main,
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  font-family: "Clash Display";
+  color: var(--blackColor);
+}
+
+p,
+figure,
+label {
+  margin: 0;
+}
+
+p {
+  color: #000a43;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+small {
+  font-size: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+}
+
+.header-area {
+    background-color: #FFF8F3;
+    background: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #474747;
+    margin-left: 30px;
+}
+
+.nav-bar ul li:last-child a {
+    background: #FD6E0A;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.banner h4 {
+    font-size: 45px;
+    color: #474747;
+    white-space: 10px;
+    letter-spacing: 5px;
+}
+
+.banner h2 {
+    font-size: 85px;
+    color: #181818;
+    padding: 10px 0;
+}
+
+.banner ul li {
+    display: inline-block;
+}
+
+.banner ul li a {
+    background: #FD6E0A;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.banner ul li:last-child a {
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
